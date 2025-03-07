@@ -1,12 +1,29 @@
-# React + Vite
+# RandNum-Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to:
+1. **Generate Random Numbers**.
+2. **Increment a Counter**.
 
-Currently, two official plugins are available:
+The application is divided into three main components:
+- `App.jsx`: Handles routing between the components.
+- `RandNum.jsx`: Generates random numbers.
+- `Counter.jsx`: A counter that increments with a button click.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
+- **Random Number Generator**: Displays a new random number each time the user clicks a button.
+- **Counter**: Increments a counter when the button is clicked.
+- **Responsive Design**: Styled with a clean, centered layout and vibrant colors.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+Check out the live demo: https://rand-num-counter.vercel.app/
+
+---
+
+## Installation and Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Sai-guru/RandNum--Counter.git
